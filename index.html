@@ -1,87 +1,85 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Física para CCSS — Guía Interactiva</title><style>
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:#f5f7fb;color:#172033;line-height:1.65}.hero{background:linear-gradient(135deg,#101827,#26384d 55%,#b5102e);color:white;min-height:500px}.nav{max-width:1150px;margin:auto;padding:22px;display:flex;align-items:center;gap:20px}.brand{color:white;text-decoration:none;font-weight:800}.navlinks{margin-left:auto;display:flex;gap:18px}.navlinks a{color:#e7edf5;text-decoration:none}.icon{background:#ffffff18;border:1px solid #ffffff44;color:white;border-radius:9px;padding:8px 11px}.heroct{max-width:900px;margin:70px auto;padding:0 24px}.ey{font-size:.74rem;letter-spacing:.16em;font-weight:800;opacity:.8}.hero h1{font-size:clamp(2.6rem,6vw,5rem);line-height:1.02;margin:14px 0}.hero p{max-width:700px;font-size:1.12rem;color:#e2e8f0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{border:0;border-radius:11px;padding:12px 18px;font-weight:800;cursor:pointer;text-decoration:none}.primary{background:white;color:#243447}.ghost{background:#ffffff12;border:1px solid #ffffff55;color:white}.stats{max-width:1000px;margin:-40px auto 0;background:white;border-radius:18px;box-shadow:0 18px 50px #102a4318;display:grid;grid-template-columns:repeat(4,1fr);position:relative;overflow:hidden}.stats div{text-align:center;padding:23px;border-right:1px solid #e7ebf0}.stats b{display:block;font-size:1.7rem}.stats span{font-size:.83rem;color:#667085}.sec{max-width:1180px;margin:auto;padding:75px 24px}.alt{max-width:none;background:#eef2f6}.heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:26px}.heading h2{margin:6px 0;font-size:2rem}.muted{color:#667085}.search{width:300px;max-width:100%;padding:12px;border:1px solid #d6dde8;border-radius:10px;background:white}.progresslabel{display:flex;justify-content:space-between;font-size:.84rem}.progress{height:8px;background:#e2e8f0;border-radius:99px;overflow:hidden;margin:7px 0 26px}.progress div{height:100%;width:0;background:#b5102e}.topics{display:grid;gap:13px}.topic{background:white;border:1px solid #e3e8f0;border-radius:14px;overflow:hidden}.tt{width:100%;border:0;background:none;color:inherit;text-align:left;padding:18px 20px;font:inherit;font-weight:800;display:flex;justify-content:space-between;cursor:pointer}.tt span{color:#b5102e;font-size:1.3rem}.tb{display:none;padding:0 20px 22px}.topic.open .tb{display:block}.topic.open .tt span{transform:rotate(45deg)}.mini{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.mini div{background:#f3f6f9;border-radius:10px;padding:12px}.ex{background:#f9eff1;border-left:4px solid #b5102e;border-radius:8px;padding:12px;margin:13px 0}.formula{background:#101827;color:white;padding:10px 13px;border-radius:8px;font-family:ui-monospace,monospace;margin:8px 0}.explain{border:1px solid #b5102e;background:#fff0f2;color:#8f0d25;border-radius:9px;padding:9px 13px;font-weight:800;cursor:pointer}.answer{display:none;margin-top:10px;background:#fffdf2;border:1px solid #eadb93;border-radius:10px;padding:13px}.answer.show{display:block}.fg{max-width:1130px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.fc{background:white;border:1px solid #e1e7ef;border-radius:13px;padding:19px}.fc.wide{grid-column:span 3}.fc small,.source{color:#667085}.fc strong{display:block;font-size:1.2rem;margin:7px 0}.exlist{display:grid;gap:9px}.exlist details{background:white;border:1px solid #e1e7ef;border-radius:11px;padding:13px 16px}.exlist summary{cursor:pointer;font-weight:700}.quiz{max-width:1130px;margin:auto}.qtop{display:flex;justify-content:space-between;align-items:end;gap:20px}.badge{background:white;padding:8px 12px;border-radius:9px;font-weight:800}.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:18px auto}.timerbox{background:white;border:1px solid #dfe5ed;padding:9px 13px;border-radius:9px;font-weight:700}.q{background:white;border:1px solid #dfe5ed;border-radius:12px;padding:16px;margin:12px 0}.q.correct{border:2px solid #16835c}.q.bad{border:2px solid #b64d4d}.q label{display:block;padding:5px;border-radius:7px;cursor:pointer}.q label:hover{background:#f1f5f9}.noteq{display:none;background:#f3f7f9;border-radius:8px;padding:10px;margin-top:9px;font-size:.92rem}.q.done .noteq{display:block}.quizactions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.result{font-size:1.1rem;font-weight:800;margin:15px 0;min-height:28px}.note{background:white;border:1px solid #e0e7ef;border-radius:16px;padding:28px}.dark{background:#0f172a;color:#e5e7eb}.dark .stats,.dark .topic,.dark .fc,.dark .exlist details,.dark .q,.dark .note,.dark .badge,.dark .timerbox{background:#162033;border-color:#2b3a50}.dark .muted,.dark .fc small,.dark .source,.dark .stats span{color:#9ca3af}.dark .search{background:#162033;color:white;border-color:#34445c}.dark .mini div{background:#1d2a3e}.dark .alt{background:#111c2f}.dark .ex{background:#351923}.dark .answer{background:#302d1b;border-color:#665b24}.dark .q label:hover{background:#1d2a3e}.dark .explain{background:#351923;color:#ffd0d7}footer{text-align:center;padding:28px;color:#667085;font-size:.85rem}@media(max-width:800px){.navlinks{display:none}.stats{margin:0 15px;grid-template-columns:repeat(2,1fr)}.sec{padding:55px 18px}.heading,.qtop{align-items:flex-start;flex-direction:column}.mini,.fg{grid-template-columns:1fr}.fc.wide{grid-column:auto}.heroct{margin-top:70px}}
-</style></head><body><header class="hero"><nav class="nav"><a class="brand" href="#inicio">⚙️ Física CCSS</a><div class="navlinks"><a href="#temario">Temario</a><a href="#formulas">Fórmulas</a><a href="#ejercicios">Ejercicios</a><a href="#quiz">Quiz</a></div><button id="theme" class="icon">☾</button></nav><div class="heroct" id="inicio"><span class="ey">GUÍA INTERACTIVA · VERSIÓN 2.0</span><h1>Física para Ciencias de la Salud</h1><p>Estudia los conceptos, entiende las fórmulas y practica con un quiz que cambia en cada intento.</p><div class="actions"><a class="btn primary" href="#temario">Empezar a estudiar</a><a class="btn ghost" href="#quiz">🎯 Ir al quiz</a></div></div></header><main><section class="stats"><div><b>8</b><span>bloques</span></div><div><b>60</b><span>preguntas</span></div><div><b>10</b><span>por intento</span></div><div><b>10 min</b><span>modo examen</span></div></section>
-<section class="sec" id="temario"><div class="heading"><div><span class="ey">01 · TEMARIO</span><h2>Aprende por temas</h2></div><input id="search" class="search" placeholder="Buscar un concepto…"></div><div class="progresslabel"><span>Progreso de lectura</span><b id="pt">0%</b></div><div class="progress"><div id="pb"></div></div><div class="topics">
-<article class="topic" data-k="medición errores promedio error absoluto error relativo"><button class="tt">1. Medición y análisis de datos <span>+</span></button><div class="tb"><p>En el caso aplicado se trabaja con mediciones repetidas y análisis del error.</p><div class="mini"><div><b>Promedio</b><br>Valor representativo de varias mediciones.</div><div><b>Error absoluto</b><br>Diferencia entre medición y referencia.</div><div><b>Error relativo</b><br>Relaciona el error con el valor de referencia.</div><div><b>Unidades</b><br>Mantén unidades coherentes en el procedimiento.</div></div><div class="ex"><b>Caso I:</b> alturas 1,74 m; 1,76 m; 1,75 m. Se pide promedio, error absoluto medio y error relativo.</div><button class="explain" data-e="med">💡 Explícame esto</button><div class="answer" id="a-med"></div></div></article>
-<article class="topic" data-k="movimiento MRU MRUV velocidad aceleración reposo distancia tiempo"><button class="tt">2. Movimiento, velocidad y aceleración <span>+</span></button><div class="tb"><p>El movimiento relaciona posición, tiempo, velocidad y aceleración.</p><div class="formula">v = Δx / Δt</div><div class="formula">a = Δv / Δt</div><p><b>MRU:</b> velocidad constante. <b>MRUV:</b> aceleración constante.</p><div class="ex">Caso I: parte del reposo y alcanza 9 m/s en 6 s.</div><button class="explain" data-e="mov">💡 Explícame esto</button><div class="answer" id="a-mov"></div></div></article>
-<article class="topic" data-k="fuerza Newton inercia masa aceleración peso gravedad"><button class="tt">3. Fuerza y leyes de Newton <span>+</span></button><div class="tb"><p>Las fuerzas pueden cambiar el estado de movimiento de un cuerpo. La guía de equilibrio recuerda la primera ley o ley de inercia.</p><div class="formula">F = m · a</div><div class="formula">Peso = m · g</div><p>La guía de laboratorio utiliza <b>g = 9,80 m/s²</b>.</p><button class="explain" data-e="newton">💡 Explícame esto</button><div class="answer" id="a-newton"></div></div></article>
-<article class="topic" data-k="trabajo energía cinética fuerza distancia joule"><button class="tt">4. Trabajo y energía <span>+</span></button><div class="tb"><p>El caso de biomecánica relaciona fuerza, desplazamiento y energía cinética.</p><div class="formula">W = F · d</div><div class="formula">Ec = ½ · m · v²</div><p>La energía cinética depende del cuadrado de la velocidad.</p><button class="explain" data-e="energy">💡 Explícame esto</button><div class="answer" id="a-energy"></div></div></article>
-<article class="topic" data-k="biomecánica palanca centro gravedad base sustentación estabilidad ergonomía"><button class="tt">5. Biomecánica y estabilidad <span>+</span></button><div class="tb"><p>La biomecánica aplica principios físicos al movimiento y estabilidad del cuerpo humano. La sesión 7 trabaja casos reales.</p><h4>Palancas</h4><p>Se analizan punto de apoyo, esfuerzo y resistencia.</p><h4>Estabilidad</h4><p>La base de sustentación y la posición del centro de gravedad influyen en la estabilidad.</p><div class="ex">Caso I: base inicial 0,6 m; con muletas, 0,8 m.</div><button class="explain" data-e="bio">💡 Explícame esto</button><div class="answer" id="a-bio"></div></div></article>
-<article class="topic" data-k="equilibrio estático cinético primera condición diagrama cuerpo libre sumatoria fuerzas tensiones"><button class="tt">6. Equilibrio y diagramas de cuerpo libre <span>+</span></button><div class="tb"><p>Equilibrio mecánico: reposo o movimiento a velocidad constante respecto de un sistema de referencia inercial.</p><div class="formula">ΣF = 0</div><div class="formula">ΣFx = 0 · ΣFy = 0</div><p>La guía usa dinamómetros para medir tensiones y un transportador para los ángulos.</p><button class="explain" data-e="eq">💡 Explícame esto</button><div class="answer" id="a-eq"></div></div></article>
-<article class="topic" data-k="presión flujo sangre viscosidad resistencia Poiseuille Bernoulli continuidad circulación"><button class="tt">7. Circulación sanguínea y fluidos <span>+</span></button><div class="tb"><p>La sesión 9 aborda presión, flujo, gasto cardíaco, viscosidad y resistencia vascular.</p><div class="formula">P = F / A</div><div class="formula">Q = V / t</div><div class="formula">GC = Volumen sistólico × Frecuencia cardíaca</div><div class="formula">A₁v₁ = A₂v₂</div><div class="formula">Q = (π · r⁴ · ΔP) / (8 · η · L)</div><p>En Poiseuille, duplicar el radio multiplica el flujo por 16 si lo demás permanece constante.</p><p><b>Bernoulli:</b> aplicación de conservación de energía al flujo de fluidos.</p><button class="explain" data-e="fluid">💡 Explícame esto</button><div class="answer" id="a-fluid"></div></div></article>
-<article class="topic" data-k="respiración gases Boyle Charles Gay Lussac Henry presión volumen temperatura pulmones"><button class="tt">8. Sistema respiratorio y gases <span>+</span></button><div class="tb"><p>Las sesiones 13 y 15 relacionan presión, volúmenes pulmonares y leyes de gases.</p><div class="formula">Boyle: P₁V₁ = P₂V₂</div><div class="formula">Charles: V₁/T₁ = V₂/T₂</div><div class="formula">Gay-Lussac: P₁/T₁ = P₂/T₂</div><div class="formula">Henry: pᵢ = Cᵢ · kH</div><p>Boyle: T constante. Charles: P constante. Gay-Lussac: V constante.</p><div class="ex">Ejemplo del material: 4,5 L a 760 mmHg y luego 757 mmHg, con temperatura constante.</div><button class="explain" data-e="gas">💡 Explícame esto</button><div class="answer" id="a-gas"></div></div></article></div></section>
-<section class="sec alt" id="formulas"><div class="heading"><div><span class="ey">02 · FÓRMULAS</span><h2>Hoja rápida</h2></div></div><div class="fg"><div class="fc"><span>Velocidad</span><strong>v = Δx / Δt</strong><small>desplazamiento / tiempo</small></div><div class="fc"><span>Aceleración</span><strong>a = Δv / Δt</strong><small>cambio de velocidad / tiempo</small></div><div class="fc"><span>Fuerza</span><strong>F = m · a</strong><small>segunda ley</small></div><div class="fc"><span>Peso</span><strong>F = m · g</strong><small>g = 9,80 m/s²</small></div><div class="fc"><span>Trabajo</span><strong>W = F · d</strong><small>fuerza y desplazamiento alineados</small></div><div class="fc"><span>Energía cinética</span><strong>Ec = ½mv²</strong><small>energía del movimiento</small></div><div class="fc"><span>Equilibrio</span><strong>ΣF = 0</strong><small>ΣFx = 0 y ΣFy = 0</small></div><div class="fc"><span>Presión</span><strong>P = F / A</strong><small>fuerza por área</small></div><div class="fc"><span>Flujo</span><strong>Q = V / t</strong><small>volumen / tiempo</small></div><div class="fc"><span>Continuidad</span><strong>A₁v₁ = A₂v₂</strong><small>flujo de fluidos</small></div><div class="fc wide"><span>Poiseuille</span><strong>Q = (π · r⁴ · ΔP) / (8 · η · L)</strong><small>el radio tiene una influencia muy grande porque aparece como r⁴.</small></div><div class="fc"><span>Boyle</span><strong>P₁V₁ = P₂V₂</strong><small>T constante</small></div><div class="fc"><span>Charles</span><strong>V₁/T₁ = V₂/T₂</strong><small>P constante</small></div><div class="fc"><span>Gay-Lussac</span><strong>P₁/T₁ = P₂/T₂</strong><small>V constante</small></div></div></section>
-<section class="sec" id="ejercicios"><div class="heading"><div><span class="ey">03 · PRÁCTICA</span><h2>Ejercicios para repasar</h2></div></div><div class="exlist"><details><summary>1. Alturas 1,74; 1,76; 1,75 m. ¿Promedio?</summary><p><b>1,75 m.</b></p></details><details><summary>2. De 0 a 9 m/s en 6 s. ¿Aceleración?</summary><p>a = 9/6 = <b>1,5 m/s².</b></p></details><details><summary>3. Persona de 70 kg, g = 9,8. ¿Peso?</summary><p><b>686 N.</b></p></details><details><summary>4. 30 N sobre 0,015 m². ¿Presión?</summary><p>P = 30/0,015 = <b>2000 Pa.</b></p></details><details><summary>5. ¿Qué ley usar para flujo con radio, presión, viscosidad y longitud?</summary><p><b>Ley de Poiseuille.</b></p></details><details><summary>6. Si el radio se duplica, ¿qué pasa con el flujo?</summary><p>Se multiplica por <b>16</b>, manteniendo lo demás constante.</p></details><details><summary>7. Pulmón de 4,5 L a 760 mmHg; cambia volumen a T constante. ¿Qué ley?</summary><p><b>Boyle-Mariotte.</b></p></details><details><summary>8. ¿Qué debe cumplirse en equilibrio de traslación?</summary><p><b>ΣF = 0.</b></p></details><details><summary>9. ¿Qué flujo es ordenado en capas paralelas?</summary><p><b>Laminar.</b></p></details><details><summary>10. Si V aumenta a T constante, ¿qué ocurre con P?</summary><p><b>Disminuye.</b></p></details></div></section>
-<section class="sec alt" id="quiz"><div class="heading qtop"><div><span class="ey">04 · QUIZ ALEATORIO</span><h2>Comprueba lo que sabes</h2><p class="muted">Banco de 60 preguntas · 10 diferentes en cada intento.</p></div><div><span id="score" class="badge">0/10</span> <span id="attempt" class="badge">Intento 1</span></div></div><div class="controls"><button id="new" class="btn primary">🔀 Generar nuevo quiz</button><label class="timerbox"><input type="checkbox" id="timerOn"> ⏱️ Modo examen (10 min)</label><span id="timer"></span></div><form id="quiz"></form><div class="quizactions"><button id="check" type="button" class="btn primary">✅ Calificar intento</button><button id="retry" type="button" class="btn ghost" style="color:#243447;border:1px solid #cbd5e1">🔄 Intentar nuevamente</button></div><div id="result" class="result"></div></section>
-<section class="sec"><div class="note"><span class="ey">PARA EL EXAMEN</span><h2>Orden recomendado de estudio</h2><ol><li>Movimiento, velocidad y aceleración.</li><li>Fuerzas y leyes de Newton.</li><li>Trabajo y energía.</li><li>Biomecánica y estabilidad.</li><li>Equilibrio y diagramas de cuerpo libre.</li><li>Presión, flujo, viscosidad, Poiseuille y Bernoulli.</li><li>Leyes de los gases y aplicaciones respiratorias.</li></ol><p class="source">Guía construida a partir de los materiales de Física para CCSS disponibles en el proyecto, incluyendo biomecánica, equilibrio, circulación/Poiseuille y respiración/gases.</p></div></section></main><footer>⚙️ Guía de estudio · Física para Ciencias de la Salud</footer>
-<script>
-const body=document.body,theme=document.getElementById('theme');if(localStorage.theme==='dark'){body.classList.add('dark');theme.textContent='☀'}theme.onclick=()=>{body.classList.toggle('dark');localStorage.theme=body.classList.contains('dark')?'dark':'light';theme.textContent=body.classList.contains('dark')?'☀':'☾'};
-document.querySelectorAll('.tt').forEach(b=>b.onclick=()=>b.parentElement.classList.toggle('open'));
-document.getElementById('search').oninput=e=>{let q=e.target.value.toLowerCase();document.querySelectorAll('.topic').forEach(t=>t.style.display=(t.innerText+' '+t.dataset.k).toLowerCase().includes(q)?'':'none')};
-addEventListener('scroll',()=>{let m=document.documentElement.scrollHeight-innerHeight,v=m?Math.round(scrollY/m*100):0;document.getElementById('pb').style.width=v+'%';document.getElementById('pt').textContent=v+'%'});
-const exp={med:'<b>💡 En sencillo:</b> cuando mides varias veces, los resultados pueden cambiar un poco. El promedio busca un valor representativo y el error indica cuánto te alejaste del valor de referencia.<br><br><b>🧠 Truco:</b> promedio = valor central; error = cuánto me desvié.',mov:'<b>💡 En sencillo:</b> la velocidad dice qué tan rápido cambia la posición y la aceleración qué tan rápido cambia la velocidad.<br><br><b>🧠 Truco:</b> v = distancia/tiempo; a = cambio de velocidad/tiempo.',newton:'<b>💡 En sencillo:</b> una fuerza es un empujón o jalón que puede cambiar el movimiento. F = ma relaciona fuerza, masa y aceleración. Si la resultante es cero, la aceleración es cero.',energy:'<b>💡 En sencillo:</b> el trabajo aparece cuando una fuerza produce desplazamiento. La energía cinética es la energía del movimiento. W = Fd y Ec = ½mv². Como v está al cuadrado, la velocidad influye muchísimo.',bio:'<b>💡 En sencillo:</b> la biomecánica aplica la Física al cuerpo. Una palanca se analiza con apoyo, esfuerzo y resistencia. La estabilidad depende, entre otras cosas, de la base de sustentación y del centro de gravedad.',eq:'<b>💡 En sencillo:</b> si las fuerzas se compensan, el objeto no acelera. Por eso ΣF = 0. Se separan las fuerzas en horizontal y vertical: ΣFx = 0 y ΣFy = 0.',fluid:'<b>💡 En sencillo:</b> imagina la sangre como un fluido que circula por tubos. Presión = fuerza/área; flujo = volumen/tiempo; viscosidad = resistencia interna. En Poiseuille, el radio está a la cuarta potencia: duplicarlo multiplica el flujo por 16.',gas:'<b>💡 En sencillo:</b> Boyle relaciona P y V cuando T es constante; Charles relaciona V y T cuando P es constante; Gay-Lussac relaciona P y T cuando V es constante.<br><br><b>🧠 Truco:</b> primero identifica qué variable permanece constante.'};
-document.querySelectorAll('.explain').forEach(b=>b.onclick=()=>{let x=document.getElementById('a-'+b.dataset.e);x.innerHTML=exp[b.dataset.e];x.classList.toggle('show');b.textContent=x.classList.contains('show')?'🙈 Ocultar explicación':'💡 Explícame esto'});
-const Q=[
-['Si se mide 1,74; 1,76 y 1,75 m, ¿cuál es el promedio?',['1,70','1,74','1,75','1,80'],2,'El promedio es 1,75 m.'],
-['De 0 a 9 m/s en 6 s. ¿Aceleración media?',['0,67','1,5','6','15'],1,'a=Δv/Δt=1,5 m/s².'],
-['Primera ley de Newton = ley de:',['Gravitación','Inercia','Presión','Energía'],1,'La primera ley es la ley de inercia.'],
-['Segunda ley de Newton:',['F=m/a','F=ma','F=d/t','F=A/P'],1,'F=ma.'],
-['70 kg y g=9,8. ¿Peso?',['70 N','686 N','98 N','7000 N'],1,'F=mg=686 N.'],
-['Condición de equilibrio de traslación:',['ΣF=ma','ΣF=0','ΣF=mg','ΣF=v/t'],1,'La resultante debe ser cero.'],
-['En equilibrio por componentes:',['ΣFx=1, ΣFy=1','ΣFx=0, ΣFy=0','ΣFx=mg','ΣFy=ma'],1,'Se cumple ΣFx=0 y ΣFy=0.'],
-['Instrumento para medir tensiones:',['Termómetro','Dinamómetro','Barómetro','Cronómetro'],1,'La guía usa dinamómetros.'],
-['Valor de g de la guía:',['9,8','98','0,98','10,8'],0,'g=9,80 m/s².'],
-['Trabajo cuando fuerza y desplazamiento están alineados:',['W=Fd','W=m/v','W=P/A','W=V/t'],0,'W=F·d.'],
-['Energía cinética:',['mgh','½mv²','F/A','V/t'],1,'Ec=½mv².'],
-['Si duplicas v, Ec se:',['duplica','reduce a la mitad','cuadruplica','no cambia'],2,'La velocidad está al cuadrado.'],
-['Elementos principales de una palanca:',['apoyo, esfuerzo y resistencia','masa y volumen','presión y temperatura','radio y viscosidad'],0,'Esos son los elementos mecánicos básicos.'],
-['Base de sustentación inicial del Caso I:',['0,06 m','0,6 m','6 m','0,8 m'],1,'El caso indica 0,6 m.'],
-['Base con muletas en el Caso I:',['0,6 m','0,7 m','0,8 m','1,8 m'],2,'El caso indica 0,8 m.'],
-['Presión:',['P=F/A','P=V/t','P=Fd','P=ma'],0,'P=F/A.'],
-['Unidad SI de presión:',['N','Pa','J','W'],1,'Pascal.'],
-['1 mmHg aproximadamente equivale a:',['13,33 Pa','133,3 Pa','1333 Pa','1,333 Pa'],1,'El material indica 133,3 Pa.'],
-['Flujo sanguíneo:',['F/A','V/t','m/V','E/t'],1,'Q=V/t.'],
-['Gasto cardíaco:',['VS×FC','P×A','m×a','V/t siempre'],0,'GC=volumen sistólico×frecuencia cardíaca.'],
-['Flujo laminar:',['caótico','capas paralelas','sin movimiento','P=0'],1,'Es ordenado en capas paralelas.'],
-['Flujo turbulento:',['ordenado','caótico','viscosidad cero','P cero'],1,'Es caótico.'],
-['Viscosidad:',['resistencia interna a fluir','volumen','gravedad','presión'],0,'Es resistencia interna del fluido a fluir.'],
-['La sangre es un fluido:',['ideal','no newtoniano','sólido','sin viscosidad'],1,'El material la describe como no newtoniana.'],
-['Al aumentar hematocrito, viscosidad:',['baja','sube','es cero','no existe'],1,'↑Hcto → ↑viscosidad.'],
-['Al aumentar temperatura, viscosidad sanguínea:',['sube','baja','infinita','no existe'],1,'↑T → ↓viscosidad.'],
-['Ecuación de continuidad:',['A₁v₁=A₂v₂','P₁V₁=P₂V₂','F=ma','Q=F/A'],0,'Es la ecuación de continuidad.'],
-['En un vaso más estrecho, manteniendo caudal, la velocidad:',['aumenta','disminuye','es cero','no cambia siempre'],0,'Al disminuir el área, aumenta la velocidad.'],
-['Poiseuille relaciona flujo con:',['r, ΔP, η y L','masa y tiempo','T y masa','altura y volumen'],0,'Q depende de radio, presión, viscosidad y longitud.'],
-['En Poiseuille el radio aparece como:',['r','r²','r³','r⁴'],3,'Aparece como r⁴.'],
-['Si duplicas el radio, el flujo se multiplica por:',['2','4','8','16'],3,'2⁴=16.'],
-['Bernoulli se relaciona con conservación de:',['energía','carga eléctrica','masa únicamente','temperatura'],0,'Se presenta como conservación de energía en el flujo.'],
-['Boyle se usa con temperatura:',['constante','variable siempre','igual a cero','infinita'],0,'T constante.'],
-['Ley de Boyle:',['P₁V₁=P₂V₂','V₁/T₁=V₂/T₂','P₁/T₁=P₂/T₂','Q=V/t'],0,'Ecuación de Boyle.'],
-['Si V aumenta a T constante, P:',['aumenta','disminuye','no cambia','se duplica'],1,'P y V son inversamente proporcionales.'],
-['Charles se usa con presión:',['constante','cero','variable','infinita'],0,'P constante.'],
-['Ley de Charles:',['P₁V₁=P₂V₂','V₁/T₁=V₂/T₂','P₁/T₁=P₂/T₂','F=ma'],1,'Ecuación de Charles.'],
-['Gay-Lussac se usa con volumen:',['constante','cero','variable','infinito'],0,'V constante.'],
-['Ley de Gay-Lussac:',['P₁V₁=P₂V₂','V₁/T₁=V₂/T₂','P₁/T₁=P₂/T₂','Q=V/t'],2,'Ecuación de Gay-Lussac.'],
-['Ley de Henry se relaciona con:',['gases disueltos','equilibrio mecánico','trabajo','MRU'],0,'Henry trata gases disueltos.'],
-['Si el volumen pulmonar aumenta a T constante, la presión:',['aumenta','disminuye','no cambia','siempre se duplica'],1,'Boyle: al aumentar V, disminuye P.'],
-['Volumen inicial del ejemplo pulmonar:',['0,45 L','4,5 L','45 L','5,4 L'],1,'El ejemplo usa 4,5 L.'],
-['Presión inicial del ejemplo pulmonar:',['76','760','7600','7,60'],1,'El ejemplo usa 760 mmHg.'],
-['30 N sobre 0,015 m² produce:',['20 Pa','200 Pa','2000 Pa','20000 Pa'],2,'P=30/0,015=2000 Pa.'],
-['20 N durante 5 m alineados producen un trabajo de:',['4 J','25 J','100 J','400 J'],2,'W=20×5=100 J.'],
-['2 kg a 3 m/s. Ec:',['3 J','6 J','9 J','18 J'],2,'Ec=½(2)(9)=9 J.'],
-['Equilibrio cinético puede significar:',['velocidad constante','aceleración no nula','fuerza neta no nula','solo reposo'],0,'La guía incluye movimiento a velocidad constante.'],
-['La primera condición de equilibrio es de:',['traslación','combustión','temperatura','presión'],0,'Es equilibrio de traslación.'],
-['Para equilibrio se descomponen fuerzas en:',['x e y','masa y volumen','P y T','radio y longitud'],0,'Se usan componentes x e y.'],
-['Para medir ángulos en el laboratorio se usa:',['termómetro','transportador','cronómetro','barómetro'],1,'Se usa un transportador.'],
-['La figura del laboratorio tiene:',['F1,F2,F3','una fuerza','dos temperaturas','tres presiones'],0,'Muestra tres fuerzas y sus ángulos.'],
-['Física para CCSS se aplica a:',['procesos fisiológicos y equipos biomédicos','solo astronomía','solo geología','solo química'],0,'El logro del curso vincula Física con salud.'],
-['La sesión 9 aborda principalmente el sistema:',['cardiovascular','óseo','digestivo','nervioso'],0,'Es física de la circulación sanguínea.'],
-['La sesión 13 aborda principalmente el sistema:',['respiratorio','óseo','muscular','tegumentario'],0,'Trabaja respiración y gases.'],
-['La sesión 15 aborda:',['volúmenes y capacidades pulmonares','nomenclatura química','ácidos y bases','óptica'],0,'Ese es uno de sus temas principales.'],
-['Si la fuerza resultante es cero, la aceleración es:',['cero','9,8','1','infinita'],0,'Por F=ma, fuerza neta cero implica a=0.'],
-['5 kg con 2 m/s². Fuerza:',['2,5 N','7 N','10 N','25 N'],2,'F=5×2=10 N.'],
-['¿Qué magnitud está a la cuarta potencia en Poiseuille?',['presión','radio','viscosidad','longitud'],1,'El radio r⁴.'],
-['Si aumenta el área con F constante, la presión:',['aumenta','disminuye','no cambia','infinita'],1,'P=F/A.'],
-['Unidad típica del gasto cardíaco en el material:',['L/min','N','Pa','J'],0,'Se presenta aproximadamente en L/min.']
-];
-let cur=[],att=0,done=false,timerInt=null,left=600;function sh(a){return[...a].sort(()=>Math.random()-.5)}function gen(){att++;done=false;cur=sh(Q).slice(0,10);let f=document.getElementById('quiz');f.innerHTML='';cur.forEach((q,i)=>{let o=sh(q[1].map((t,j)=>({t,j}))),d=document.createElement('div');d.className='q';d.innerHTML=`<p><b>${i+1}.</b> ${q[0]}</p>`+o.map(x=>`<label><input type="radio" name="q${i}" value="${x.j}"> ${x.t}</label>`).join('')+`<div class="noteq"></div>`;f.appendChild(d)});document.getElementById('attempt').textContent='Intento '+att;document.getElementById('score').textContent='0/10';document.getElementById('result').textContent='';startTimer();document.getElementById('quiz').scrollIntoView({behavior:'smooth'})}function startTimer(){clearInterval(timerInt);document.getElementById('timer').textContent='';if(!document.getElementById('timerOn').checked)return;left=600;tick();timerInt=setInterval(()=>{left--;tick();if(left<=0){clearInterval(timerInt);check(true)}},1000)}function tick(){let m=String(Math.floor(left/60)).padStart(2,'0'),s=String(left%60).padStart(2,'0');document.getElementById('timer').textContent=`Tiempo: ${m}:${s}`}function check(auto=false){if(done)return;let sc=0,bl=0;document.querySelectorAll('.q').forEach((d,i)=>{let s=d.querySelector(`input[name=q${i}]:checked`);d.classList.remove('correct','bad','done');if(!s){bl++;return}let a=+s.value,q=cur[i],n=d.querySelector('.noteq');d.classList.add('done');if(a===q[2]){sc++;d.classList.add('correct');n.innerHTML='✅ <b>Correcta.</b> '+q[3]}else{d.classList.add('bad');n.innerHTML=`❌ <b>Incorrecta.</b> Correcta: <b>${q[1][q[2]]}</b>. ${q[3]}`}});done=true;clearInterval(timerInt);document.getElementById('score').textContent=sc+'/10';document.getElementById('result').textContent=auto?`⏰ Tiempo terminado. Resultado: ${sc}/10.`:`Resultado: ${sc}/10${bl?' · '+bl+' sin responder':''}.`}document.getElementById('new').onclick=gen;document.getElementById('retry').onclick=gen;document.getElementById('check').onclick=()=>check(false);document.getElementById('timerOn').onchange=startTimer;gen();
-</script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Física para CCSS — Guía Interactiva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <p class="eyebrow">FÍSICA PARA CCSS</p>
+        <h1>Guía interactiva de Física</h1>
+        <p class="lead">Repasa las sesiones, entiende las fórmulas y practica con preguntas aleatorias.</p>
+      </div>
+      <div class="hero-actions">
+        <button id="themeBtn" class="btn ghost">🌙 Modo oscuro</button>
+        <button id="examBtn" class="btn primary">⏱️ Modo examen</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="dashboard card">
+      <div class="dash-item"><strong id="topicCount">12</strong><span>temas</span></div>
+      <div class="dash-item"><strong id="questionCount">60</strong><span>preguntas</span></div>
+      <div class="dash-item"><strong id="scoreStat">—</strong><span>último puntaje</span></div>
+      <div class="dash-item"><strong id="attemptStat">0</strong><span>intentos</span></div>
+    </section>
+
+    <section class="toolbar card">
+      <input id="search" type="search" placeholder="🔎 Buscar tema, fórmula o concepto..." />
+      <div class="filters">
+        <button class="filter active" data-filter="all">Todos</button>
+        <button class="filter" data-filter="mecanica">Mecánica</button>
+        <button class="filter" data-filter="fluidos">Fluidos</button>
+        <button class="filter" data-filter="gases">Gases</button>
+        <button class="filter" data-filter="termo">Termodinámica</button>
+        <button class="filter" data-filter="ondas">Ondas</button>
+        <button class="filter" data-filter="electricidad">Electricidad</button>
+        <button class="filter" data-filter="bioelectricidad">Bioelectricidad</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div><span class="eyebrow dark">APRENDE</span><h2>Temas de la clase</h2></div>
+        <span class="muted">Basado en los materiales de Física para CCSS enviados.</span>
+      </div>
+      <div id="topics" class="topics"></div>
+    </section>
+
+    <section class="formula card" id="formulas">
+      <div class="section-heading compact"><div><span class="eyebrow dark">RESUMEN</span><h2>Hoja de fórmulas</h2></div></div>
+      <div class="formula-grid" id="formulaGrid"></div>
+      <div class="note">⚠️ En gases, usa siempre temperatura absoluta: <b>T(K)=T(°C)+273,15</b>. En Nernst, la clase trabaja a 37 °C con el factor aproximado de 61 mV.</div>
+    </section>
+
+    <section class="practice card">
+      <div class="section-heading compact"><div><span class="eyebrow dark">PRÁCTICA</span><h2>Ejercicios rápidos</h2></div></div>
+      <div id="practiceGrid" class="practice-grid"></div>
+    </section>
+
+    <section class="quiz card" id="quiz">
+      <div class="quiz-head">
+        <div><span class="eyebrow dark">QUIZ</span><h2>Examen aleatorio</h2><p class="muted">Cada intento genera 10 preguntas diferentes y mezcla las alternativas.</p></div>
+        <div class="quiz-tools"><span id="timer" class="timer">10:00</span><button id="newQuiz" class="btn primary">🔄 Nuevo intento</button></div>
+      </div>
+      <div class="progress"><div id="progressBar"></div></div>
+      <div id="quizBody"></div>
+      <div class="quiz-footer"><button id="submitQuiz" class="btn primary">Calificar</button><span id="quizStatus" class="muted"></span></div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal hidden" aria-hidden="true">
+    <div class="modal-box">
+      <button id="closeModal" class="close">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
